@@ -1,0 +1,107 @@
+/*Persian fonts*/
+@font-face {
+    font-family: titr;
+    src: url("requirments file/BTitrBd.ttf");
+}
+
+@font-face {
+    font-family: aviny;
+    src: url("requirments file/aviny.ttf");
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url("requirments file/Yekan.ttf");
+}
+
+@font-face {
+    font-family: Snaap;
+    src: url("requirments file/Y_Snaap.ttf");
+}
+
+@font-face {
+    font-family: qasem;
+    src: url("requirments file/AGhasem.ttf");
+}
+
+@font-face {
+    font-family: Kalameh;
+    src: url("requirments file/Kalameh_Regular.ttf");
+}
+
+@font-face {
+    font-family: Maneli;
+    src: url("requirments file/Maneli.ttf");
+}
+
+@font-face {
+    font-family: vazir;
+    src: url("requirments file/Vazir.ttf");
+}
+
+@font-face {
+    font-family: nastaliq;
+    src: url("requirments file/IranNastaliq.ttf");
+}
+
+@font-face {
+    font-family: Lalezar;
+    src: url("requirments file/Lalezar-Regular.ttf");
+}
+
+@font-face {
+    font-family: danstevis;
+    src: url("requirments file/danstevis.otf");
+}
+
+/*Foreign fonts*/
+@font-face {
+    font-family: LemonRegular;
+    src: url("requirments file/Lemon-Regular.ttf");
+}
+
+@font-face {
+    font-family: ITCKRIST;
+    src: url("requirments file/ITCKRIST.ttf");
+}
+
+@font-face {
+    font-family: segoepr;
+    src: url("requirments file/segoepr.ttf");
+}
+
+@font-face {
+    font-family: javan;
+    src: url("requirments file/javan.ttf");
+}
+
+@font-face {
+    font-family: UbuntuMono;
+    src: url("requirments file/UbuntuMono-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: CabinSketch;
+    src: url("requirments file/CabinSketch-Regular.ttf");
+}
+
+@font-face {
+    font-family: FREESCPT;
+    src: url("requirments file/FREESCPT.TTF");
+
+}
+
+/*Set css style*/
+body{
+    background-color: white;
+    color: black;
+    direction: rtl;
+    font-family: vazir;
+    
+}
+
+.foreignFont{
+    font-family: UbuntuMono;
+}
+
