@@ -1,4 +1,3 @@
-17,18 	- DetailView/ListView class base
 21 	- Model manager(get_Queryset, get_object_data, get_context_data)
 22 	- Custom chain func in model manager
 * Reverse urls
