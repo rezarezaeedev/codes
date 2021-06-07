@@ -48,3 +48,32 @@ def list_grouper(n, iterable):
 def get_seo_url(url,char='-',oldchar=' '):
     return url.replace(oldchar, char)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
