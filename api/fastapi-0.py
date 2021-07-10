@@ -1,6 +1,7 @@
+from fastapi import FastAPI,Query,Path ,status, HTTPException
 from pydantic import *
 from typing import *
-from fastapi import FastAPI,Query,Path ,status, HTTPException
+
 
 """
 document of http response status code:
