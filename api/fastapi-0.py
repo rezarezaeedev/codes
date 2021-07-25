@@ -82,7 +82,7 @@ class User(BaseModel):
         phone:Optional[str]
         
 
-@app.post('/user',response_model=User.Out, status_code=status.HTTP_201_CREATED)
+@app.post('/user',response_model=User , status_code=status.HTTP_201_CREATED)
 def get_person(u:User):
     if u.username=='admin':
         raise HTTPException(
@@ -93,7 +93,12 @@ def get_person(u:User):
                     'username-entered':u.username,  
                     }
             )
-    return u
+    data_dict=u.dict()
+    return {
+            'message':"User created successfuly",
+            's':data_dict
+            
+        }
 
 
 
