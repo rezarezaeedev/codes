@@ -1,0 +1,20 @@
+
+# Linux aliass
+alias cls="clear"
+
+# Python aliass
+alias pych="nohup pycharm-professional &"
+alias ins="nohup insomnia &"
+alias py='python'
+alias uppip='python -m pip install --upgrade pip'
+alias insreq='python -m pip install -r '
+
+# Django aliass
+alias mkmig='python manage.py makemigrations'
+alias mig='python manage.py migrate'
+alias cresup='python manage.py createsuperuser'
+alias runser='python manage.py runserver'
+alias colst='python manage.py collectstatic'
+alias djtest='python manage.py test'
+alias djcov='coverage run manage.py test && coverage html && brave htmlcov/index.html'
+alias djshell='python manage.py shell'
